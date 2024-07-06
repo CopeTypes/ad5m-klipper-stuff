@@ -1,1 +1,1 @@
-# adm5-klipper-macros
+# Stuff for the FlashForge Adventurer 5M Pro running Klipper firmware
