@@ -12,8 +12,8 @@
 -  In the end g-code panel (in Machine G-code), put _COMPLETE_PRINT
 
 # Macro/GCode enhancements
-- Clean the nozzle before each print, and calibrate only in the print area to reduce leveling time (adaptive bed mesh)
-- Start moving the extruder early before heating is complete, to prevent oozing anywhere before printing the priming line
+- Improved bed leveling - Calibrate only in the print area to reduce leveling time (adaptive bed mesh)
+- Improved priming sequence tos tart moving the extruder early before heating is complete, to prevent oozing anywhere.
 - Wait for the part/bed to cool before alerting / "completing" the print, so you can remove it as soon as it's marked done. (This will adversely extend the print time estimates, etc. of things due to the added delay..)
 
 # Standard 5M support
