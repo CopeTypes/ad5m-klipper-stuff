@@ -1,0 +1,10 @@
+{
+    "brim_type": "auto_brim",
+    "enable_support": "1",
+    "from": "User",
+    "inherits": "0.30mm Standard @Flashforge AD5M Pro 0.6 Nozzle",
+    "is_custom_defined": "0",
+    "name": "0.30mm 0.6 Nozzle",
+    "print_settings_id": "0.30mm 0.6 Nozzle",
+    "version": "2.1.1.0"
+}

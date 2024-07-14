@@ -1,0 +1,10 @@
+{
+    "brim_type": "auto_brim",
+    "from": "User",
+    "inherits": "0.20mm Standard @Flashforge AD5M Pro 0.4 Nozzle",
+    "is_custom_defined": "0",
+    "name": "0.20mm Standard 0.4 Nozzle",
+    "print_settings_id": "0.20mm Standard 0.4 Nozzle",
+    "skirt_distance": "10",
+    "version": "2.0.2.0"
+}
