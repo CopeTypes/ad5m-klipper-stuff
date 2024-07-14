@@ -1,0 +1,16 @@
+{
+    "bed_mesh_max": "105,105",
+    "bed_mesh_min": "-105,-105",
+    "change_filament_gcode": "M25",
+    "from": "User",
+    "inherits": "Flashforge Adventurer 5M Pro 0.6 Nozzle",
+    "is_custom_defined": "0",
+    "machine_end_gcode": "_COMPLETE_PRINT",
+    "machine_start_gcode": "_INIT_PRINT BED_TEMP=[bed_temperature_initial_layer_single] ; start heating , reset Z offset, home\nBED_MESH_CALIBRATE mesh_min={adaptive_bed_mesh_min[0]},{adaptive_bed_mesh_min[1]} mesh_max={adaptive_bed_mesh_max[0]},{adaptive_bed_mesh_max[1]} ALGORITHM=[bed_mesh_algo] PROBE_COUNT={bed_mesh_probe_count[0]},{bed_mesh_probe_count[1]} ADAPTIVE=0 ADAPTIVE_MARGIN=0 ; calibrate in print area\n_BEGIN_PRINT TEMP=[nozzle_temperature_initial_layer] ; move out of print area, start circulation, and heat + prime nozzle",
+    "name": "5M Pro 0.6 Nozzle Klipper",
+    "nozzle_type": "undefine",
+    "print_host": "192.168.0.177:7125",
+    "print_host_webui": "192.168.0.177:4001",
+    "printer_settings_id": "5M Pro 0.6 Nozzle Klipper",
+    "version": "2.0.2.0"
+}
